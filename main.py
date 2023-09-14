@@ -25,6 +25,6 @@ async def main(message : str):
         temperature = 0.95
     )
 
-
-
     await cl.Message(content = f"{response['choices'][0]['message']['content']}",).send()
+
+    
